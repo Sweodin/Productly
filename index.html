@@ -1,11 +1,155 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles/normalize.css" />
+    <link rel="stylesheet" href="styles/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet" />
     <title>Document</title>
-</head>
-<body>
-    
-</body>
+  </head>
+  <body class="flex_Box location">
+    <!----- Logo ----->
+
+    <header class="flex_Box location">
+      <section class="logo_Box">
+        <img src="img/Logo.svg" class="logo" alt="Logo" />
+      </section>
+
+      <!----- Navbar ----->
+
+      <nav class="nav_Box flex_Box">
+        <ul class="li_Box">
+          <li class="li_Text nav_Color">
+            <a href="#" class="nav_Color font_Regular f_Size14"></a>Product
+          </li>
+          <li class="li_Text nav_Color">
+            <a href="#" class="nav_Color font_Regular f_Size14"></a>Customer
+          </li>
+          <li class="li_Text nav_Color">
+            <a href="#" class="nav_Color font_Regular f_Size14"></a>Pricing
+          </li>
+          <li class="li_Text nav_Color">
+            <a href="#" class="nav_Color font_Regular f_Size14"></a>Resources
+          </li>
+        </ul>
+
+        <!----- Buttons ----->
+
+        <button class="sign_InBtn font_Semibold">Sign In</button>
+        <button class="sign_UpBtn font_Semibold">Sign Up</button>
+      </nav>
+    </header>
+
+    <!----- Hero Section ----->
+
+    <section class="flex_Box location">
+      <section class="hero_Box">
+        <h1 class="hero_TextHeader font_Bold f_Size44">
+          The Design Thinking superpowers
+        </h1>
+        <p class="hero_TextPara font_Regular f_Size18">
+          Tools, tutorials, design and innovation experts, all in one place! The
+          most intuitive way to imagine your next user experience.
+        </p>
+
+        <!----- Buttons / Link / IMG ----->
+
+        <section class="hero_Btn">
+          <button class="get_StartedBtn f_Size16 font_Bold">Get started</button>
+          <div class="triangle_Icon">
+            <img src="img/Triangle Copy 6.png" alt="triangle_icon" />
+          </div>
+          <a href="#" class="link_Btn font_Semibold">Watch the Video</a>
+        </section>
+      </section>
+      <img src="img/Hero.png" class="hero_Img" alt="People are Happy" />
+    </section>
+
+    <!----- Features Section ----->
+
+    <section class="features_Box-H flex_Box location">
+      <h2 class="features_H font_Bold f_Size36">
+        We design tools to unveil<br />your superpowers
+      </h2>
+    </section>
+    <!-- <section class="features_Main-Box flex_Box"> -->
+    <section class="features_Card-Box location">
+      <div class="card location">
+        <img
+          src="img/iconArrow.png"
+          class="icon_Card"
+          alt="An Icon img of an Arrow" />
+        <h3 class="card_Heading font_Semibold">First click tests</h3>
+        <p class="card_Para font_Medium a">
+          While most people enjoy casino gambling,
+        </p>
+      </div>
+      <div class="card">
+        <img
+          src="img/iconDesign.png"
+          class="icon_Card"
+          alt="A Icon img of a card" />
+        <h3 class="card_Heading font_Semibold">Design surveys</h3>
+        <p class="card_Para font_Medium a">
+          Sports betting, lottery and bingo playing for the fun
+        </p>
+      </div>
+      <div class="card">
+        <img
+          src="img/iconHeart.png"
+          class="icon_Card"
+          alt="A Icon img of a heart" />
+        <h3 class="card_Heading font_Semibold">Preference tests</h3>
+        <p class="card_Para font_Medium a">
+          The Myspace page defines the individual.
+        </p>
+      </div>
+      <div class="card">
+        <img
+          src="img/iconHourglas.png"
+          class="icon_Card"
+          alt="A Icon img of a hourglass" />
+        <h3 class="card_Heading font_Semibold">Five second tests</h3>
+        <p class="card_Para font_Medium a">
+          Personal choices and the overall personality of the person.
+        </p>
+      </div>
+    </section>
+    <button class="feature_Btn font_Bold f_Size16">SIGN UP NOW</button>
+    <!-- </section> -->
+
+    <!----- Effortless Validation section ----->
+
+    <!-- <section class="Effort_Main-Box flex_Box location">
+        <section class="Effort_Text-Box">
+          <p class="font_Medium">Effortless Validation for</p>
+          <h2 class="font_Bold m_Bottom22 f_Size36">Design Professionals</h2>
+          <p class="font_Medium m_Bottom30">
+            The Myspace page defines the individual, his or her characteristics,
+            traits, personal choices and the overall personality of the person.
+          </p>
+          <h3 class="font_Bold f_Size16 m_Bottom12">Accessory makers</h3>
+          <p class="font_Medium m_Bottom25">
+            While most people enjoy casino gambling, sports betting, lottery and
+            bingo playing for the fun
+          </p>
+          <h3 class="font_Bold f_Size16 m_Bottom12">Alterationists</h3>
+          <p class="font_Medium m_Bottom25">
+            If you are looking for a new way to promote your business that won’t
+            cost you more money,
+          </p>
+          <h3 class="font_Bold f_Size16 m_Bottom12">Custom Design designers</h3>
+          <p class="font_Medium">
+            If you are looking for a new way to promote your business that won’t
+            cost you more money,
+          </p>
+        </section>
+        <img src="img/Manwithtablet.png" alt="Man with tablet" />
+      </section> -->
+  </body>
 </html>
