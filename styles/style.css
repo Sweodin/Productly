@@ -6,16 +6,13 @@
   box-sizing: border-box;
 }
 
-/* 01 Productly */
+/*----- 01 Productly -----*/
 body {
-  /* flex-wrap: wrap; */
   justify-content: center;
   flex-direction: column;
-  /* position: absolute; */
   min-width: 1400px;
   width: 100%;
-  height: 1277px;
-
+  height: 3843px;
   background: #ffffff;
 }
 
@@ -259,8 +256,6 @@ Header {
   justify-content: center;
   align-items: center;
   margin-top: 110px;
-  /* margin-bottom: 120px; */
-  left: 439px;
 }
 
 .features_H {
@@ -268,19 +263,10 @@ Header {
   margin-bottom: 54px;
 }
 
-/* .features_Main-Box {
-  align-items: center;
-  flex-direction: column;
-  width: 100%;
-  min-width: 1095px;
-  height: 204px;
-} */
-
 .features_Card-Box {
   display: flex;
   justify-content: space-evenly;
   height: 204px;
-  margin-bottom: 34px;
 }
 
 .card {
@@ -288,18 +274,15 @@ Header {
 }
 
 .card_Heading {
-  font-size: 22px;
   margin-top: 30px;
 }
 
 .card_Para {
-  margin-top: 30px;
+  margin-top: 13px;
   margin-right: 46px;
   max-width: 240px;
   width: 100%;
   height: 178px;
-  line-height: 26px;
-  color: #544837;
 }
 
 .feature_Btn {
@@ -307,9 +290,7 @@ Header {
   height: 53px;
   border-radius: 4px;
   margin-top: 34px;
-  /* margin-bottom: 90px; */
   border: none;
-
   transition: 0.3s ease-in-out;
   color: #ffffff;
   background-color: #ff9900;
@@ -321,22 +302,137 @@ Header {
 
 /*----- Effortless Validation -----*/
 
-/* .Effort_Main-Box {
-    justify-content: center;
-    align-items: center;
-    margin-top: 120px;
-    margin-bottom: 101px;
-  } */
+.Effort_Main-Box {
+  justify-content: space-between;
+  align-items: center;
+  width: 1110px;
+  margin-top: 120px;
+  margin-bottom: 101px;
+}
 
-/* .Effort_Text-Box {
-    max-width: 486px;
-    width: 100%;
-    height: 531px;
-  } */
+.Effort_Text-Box {
+  max-width: 486px;
+  height: 531px;
+}
 
-/*----- Location tool -----*/
-.location {
-  border: #c37272;
-  border-width: 3px;
-  border-style: solid;
+/*----- Product Managers -----*/
+
+.prodM_ImgBox {
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 104px;
+}
+
+.prodM_TextBox {
+  max-width: 486px;
+  width: 100%;
+  height: 427px;
+  margin-left: 100px;
+}
+
+/*----- Marketers -----*/
+
+.mark_Box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 146px;
+}
+
+.mark_TextBox {
+  max-width: 486px;
+  margin-right: 82px;
+}
+
+/*----- Footer -----*/
+
+footer {
+  position: relative;
+  max-width: 1109px;
+  width: 100%;
+  height: 308px;
+  border-top: 1px solid #bcd0e5;
+}
+
+.footer_Logo {
+  position: absolute;
+  width: 185px;
+  height: 32px;
+  top: 102px;
+}
+
+.footer_LinksMain {
+  justify-content: center;
+  align-items: center;
+  transition: transform 0.3s ease-in-out;
+}
+
+.footer_LinksMain:hover {
+  color: #dc5c29;
+}
+
+.footer_LinkQuick {
+  justify-content: start;
+  align-items: end;
+  width: 118px;
+  height: 205px;
+  margin-top: 102px;
+  margin-right: 129px;
+}
+
+.footer_LinkLegal {
+  justify-content: start;
+  align-items: end;
+  width: 132px;
+  height: 205px;
+  margin-top: 102px;
+  margin-right: 82px;
+}
+
+.signUp_BoxMain {
+  position: absolute;
+  width: 325px;
+  height: 199px;
+  right: 0;
+  bottom: 0;
+}
+.know {
+  height: 57px;
+  left: 0%;
+  right: 13.85%;
+  top: calc(50% - 57px / 2 - 71px);
+  line-height: 30px;
+  color: #2f281e;
+}
+
+.phone_BoxM {
+  position: absolute;
+  left: 0px;
+  right: 0px;
+  top: 94px;
+  height: 48px;
+  width: 325px;
+  background: #fff;
+  border: 1px solid #bcd0e5;
+  border-radius: 4px;
+}
+.phone_Box {
+  height: 28px;
+  width: 300px;
+  left: 15px;
+  color: #bcd0e5;
+}
+
+.footer_SignUpBtn {
+  padding: 8px 15px;
+  border-radius: 4px;
+  margin-top: 21px;
+  border: none;
+  background-color: #ff9900;
+  color: #fff;
+  transition: 0.3s ease-in-out;
+}
+
+.footer_SignUpBtn:hover {
+  background-color: #dc5c29;
 }
